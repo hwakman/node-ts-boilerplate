@@ -1,6 +1,6 @@
 import { AppDataSource } from "../models";
 import { Router, Request, Response } from "express";
-import { EntityTarget, ObjectLiteral, Repository } from "typeorm";
+import { ObjectLiteral, Repository } from "typeorm";
 
 
 export class BaseController {

@@ -7,7 +7,7 @@ export { User };
 const entities = [User];
 export const AppDataSource = new DataSource({
     type: "postgres",
-    host: "db",
+    host: "localhost",
     port: 5432,
     username: "postgres",
     password: "example",
